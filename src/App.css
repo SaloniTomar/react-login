@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: sans-serif;
+  font-size: 30px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.error{
+  color: red;
+  margin: 10px;
+}
+.FormField{
+  margin: 10px;
+}
+
+.dropdown {
+  position: absolute;
+  right: 10%;
+  top: 2%;
+  color: white;
+  background-color: slategray;
+  padding: 10px 10px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left:-20%;
+  width: inherit;
+  color: white;
+  background-color: slategray;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
